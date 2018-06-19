@@ -5,6 +5,7 @@
 class Charecter():
 
 	def __init__(self,name = "N/A"):
+		pass
 
 
 
