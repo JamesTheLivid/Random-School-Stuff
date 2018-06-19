@@ -15,7 +15,7 @@ class Charecter():
 		 self.weaknesses = weaknesses
 		 self.shoeSize = shoeSize
 
-	def PrintValues():
+	def PrintValues(self):
 		
 		print("Your Charecter's name is {name}.\nTheir age is {age}.\n\nTheir weaknesses are {weaknesses}.\nTheir strengths are {strengths}.\n\nTheir shoe size is {shoeSize}".format(name = self.name, age = self.age, strengths = self.strengths, weaknesses = self.weaknesses, shoeSize = self.shoeSize))
 
@@ -25,10 +25,10 @@ class Charecter():
 		self.age = input("Enter your age: ")
 		self.strengths = input("Enter your strengths: ")
 		self.weaknesses = input("Enter your weaknesses: ")
-		self.shoeSizd = input("Enter your shoe size: ")
+		self.shoeSize = input("Enter your shoe size: ")
 
 
 char = Charecter()
 
 char.SetValues()
-char.Print()
+char.PrintValues()

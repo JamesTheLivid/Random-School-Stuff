@@ -23,11 +23,10 @@ shoeSize = input("What shoe size is your charecter? ")
  
 # Outputs
 print("\n--------------------\n")
-print("Your character's anme is", name)
+print("Your character's name is", name)
 print("Your character is", age, "years old")
-print("\n")
 print("Strengths:", strenghts)
-print("Weknesses:\n", weaknesses)
+print("Weknesses:", weaknesses, "\n")
 
 if int(shoeSize) <= 5:
     print("Your charecter has small feet!")
